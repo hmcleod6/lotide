@@ -36,3 +36,5 @@ const results1 = map(words, word => word[0]);
 
 console.log(assertArraysEqual(["g" , "c", "t", "m", "t"], results1));
 
+
+module.exports = map.js

@@ -16,3 +16,5 @@ const results1 = findKey({
 }, x => x.stars === 2);
 
 console.log(results1);
+
+module.exports = findKey;
