@@ -16,11 +16,11 @@ const assertObjectsEqual = function(actual, expected) {
   }
 };
 
-const object1 = { c: "1", d: ["2", 3] };
-const object2 = { d: ["2", 3], c: "1" };
-assertObjectsEqual(eqObjects(object1, object2)); // => true
+// const object1 = { c: "1", d: ["2", 3] };
+// const object2 = { d: ["2", 3], c: "1" };
+// assertObjectsEqual(eqObjects(object1, object2)); // => true
 
-const cd2 = { c: "1", d: ["2", 3, 4] };
-eqObjects(cd, cd2); // => false
+// const cd2 = { c: "1", d: ["2", 3, 4] };
+// eqObjects(cd, cd2); // => false
 
 module.exports = assertObjectsEqual;
